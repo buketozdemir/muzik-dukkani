@@ -1,0 +1,13 @@
+.main ol{
+   list-style-position:inside;
+   list-style: none;
+}
+.main ol li{
+    text-align: center;
+    color: dimgray;
+    font-family: sans-serif;
+    padding-bottom: 25px;
+}
+.main img {
+    height: 250px;
+}

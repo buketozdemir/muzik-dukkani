@@ -1,0 +1,57 @@
+.adress-left {
+    float: left;
+    width: 48%;
+    padding: 40px;
+}
+.adress-left {
+    font-family: sans-serif;
+    /* background-color: rgb(210, 210, 205); */
+    color: rgb(82, 82, 82);
+}
+
+.adress-right {
+    
+    padding: 40px;
+  float: right;
+  width: calc(50% - 130px);
+}
+.textme {
+    padding: 8px;
+    font-size: 25px;
+    font-family: "Sofia", sans-serif;
+    display: block;
+}
+#texthere {
+    width: 80%;
+    border: 1px solid black;
+    height: 200px;
+    
+}
+.sendbtn {
+    height: 50px;
+    width: 120px;
+    color: black;
+    font-family:"Sofia", sans-serif;
+    font-size: 25px;
+    background-color: rgb(233, 193, 34);
+    border-radius: 5px;
+    border: 0px;
+}
+.sendbtn:hover {
+    background-color: rgb(225, 62, 60); 
+    transition-duration: .6s;
+    cursor: pointer;
+}
+.map {
+    width: 100%;
+}
+.map iframe{
+    border-radius: 10px;
+    border: 1px solid black;
+    
+}
+
+#name, #surname, #mail {
+    height: 30px;
+    width: 50%
+}
